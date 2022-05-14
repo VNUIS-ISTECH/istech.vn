@@ -1,6 +1,6 @@
 import React from "react";
 import images from "../assets/Photo/Index.js";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Activities = () => {
   return (
     <div className=" md:h-full  items-center text-gray-600 w-full bg-blue-700">
@@ -31,12 +31,12 @@ const Activities = () => {
             <h2 class="text-base font-medium text-indigo-300 mb-1">
               October 29, 2021
             </h2>
-            <a
-              href="./WsPython.js"
+            <Link
+              to="/workshop/10"
               className="py-[16px] font-bold text-[32px] "
             >
               Workshop PYTHON FOR DATA ANALYSIS
-            </a>
+            </Link>
             <p className="py-5">
               Nằm trong chuỗi chương trình tổ chức workshop phát triển và bổ trợ
               kiến thức kĩ năng cho sinh viên. Workshop Python for Data analysis
@@ -82,9 +82,12 @@ const Activities = () => {
             <h2 class="text-base font-medium text-indigo-300 mb-1">
               October 29, 2021
             </h2>
-            <a href="/" className="py-[16px] font-bold text-[32px] ">
+            <Link
+              to="/workshop/11"
+              className="py-[16px] font-bold text-[32px] "
+            >
               Chương Trình TF SCALE 2021
-            </a>
+            </Link>
             <p className="py-5">
               “The 2019 - 2021 Temasek Foundation Specialist’s Community Action
               and Leadership Exchange” - TFI SCALE - là chương trình trao đổi
@@ -130,9 +133,9 @@ const Activities = () => {
             <h2 class="text-base font-medium text-indigo-300 mb-1">
               October 29, 2021
             </h2>
-            <a href="/" className="py-[16px] font-bold text-[32px]">
+            <Link to="/workshop/12" className="py-[16px] font-bold text-[32px]">
               Cuộc Thi WiDS DATATHON 2021
-            </a>
+            </Link>
             <p className="py-5">
               Cuộc thi WiDS Datathon 2021 trên Kaggle - với thử thách yêu cầu
               các đội thi dự đoán tiền sử bệnh đái tháo đường của bệnh nhân
@@ -175,9 +178,9 @@ const Activities = () => {
             <h2 class="text-base font-medium text-indigo-300 mb-1">
               October 29, 2021
             </h2>
-            <a href="/" className="py-[16px] font-bold text-[32px]">
+            <Link to="/workshop/13" className="py-[16px] font-bold text-[32px]">
               Hội Nghị NCKH
-            </a>
+            </Link>
             <p className="py-5">
               Tham gia hội nghị nghiên cứu khoa học lần này, các thành viên câu
               lạc bộ công nghệ thông tin ISTECH đã có 3 đề tài nghiên cứu tham
@@ -218,9 +221,9 @@ const Activities = () => {
             <h2 class="text-base font-medium text-indigo-300 mb-1">
               October 29, 2021
             </h2>
-            <a href="/" className="py-[16px] font-bold text-[32px]">
+            <Link to="/workshop/14" className="py-[16px] font-bold text-[32px]">
               Hội Thảo Công Nghệ
-            </a>
+            </Link>
             <p className="py-5">
               Dự án nằm trong chuỗi hoạt động kết nối, chia sẻ: hội thảo công
               nghệ về AI, Machine Learning, Big Data với các ông lớn trong lĩnh
@@ -261,9 +264,9 @@ const Activities = () => {
             <h2 class="text-base font-medium text-indigo-300 mb-1">
               October 29, 2021
             </h2>
-            <a href="/" className="py-[16px] font-bold text-[32px]">
+            <Link to="/workshop/15" className="py-[16px] font-bold text-[32px]">
               FSOFT TOUR
-            </a>
+            </Link>
             <p className="py-5">
               Chương trình tham quan, khám phá môi trường làm việc của công ty
               FPT Software tại Khu công nghệ cao Hòa Lạc dành riêng cho các bạn

@@ -21,7 +21,7 @@ const WsPython = () => {
           <img
             src={images.ws4_1}
             className="rounded-lg py-8 Colored shadow hover:scale-90
-            duration-700 flex items-center w-full"
+            transition duration-700 ease-in-out flex items-center w-full"
           ></img>
           <div className="pt-20">
             <h2 className="font-bold text-[19px] pb-[30px]">
@@ -50,7 +50,7 @@ const WsPython = () => {
             <img
               src={images.ws4_2}
               className="rounded-lg py-8 Colored shadow hover:scale-90
-            duration-700 flex items-center w-full"
+            transition duration-700 ease-in-out flex items-center w-full"
             ></img>
             <p className="leading-7 italic pt-12">
               “Trong bài báo, đã khám phá và đề xuất quy trình để giải quyết
@@ -81,7 +81,7 @@ const WsPython = () => {
             <img
               src={images.ws4_3}
               className="rounded-lg py-8 Colored shadow hover:scale-90
-            duration-700 flex items-center w-full"
+            transition duration-700 ease-in-out  flex items-center w-full"
             ></img>
             <p className="leading-7 italic pt-12">
               “ Nhóm đã phát triển một hệ thống xử lý tập trung vào tính năng
@@ -110,7 +110,7 @@ const WsPython = () => {
             <img
               src={images.ws4_4}
               className="rounded-lg py-8 Colored shadow hover:scale-90
-            duration-700 flex items-center w-full"
+            transition duration-700 ease-in-out flex items-center w-full"
             ></img>
             <p className="leading-7 italic pt-12">
               “Mô hình “Hàng đổi hàng” không phải là mới và điều đó diễn ra
