@@ -1,10 +1,14 @@
 import style from "./App.css";
-import About from "./components/About.js";
+import AboutUs from "./components/AboutUs";
+import Apply from "./components/Apply";
+import IntroAbout from "./components/IntroAbout";
 
 function App() {
   return (
     <>
-      <About />
+      <IntroAbout />
+      <AboutUs />
+      <Apply />
     </>
   );
 }
