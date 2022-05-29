@@ -33,9 +33,9 @@ function AboutUs() {
     },
   ];
   return (
-    <div className="p-36">
+    <div className="pt-[20px] lg:p-36">
       <div className="flex flex-col items-center">
-        <h3 className="text-3xl font-bold mb-4 text-blue-600">
+        <h3 className="text-[16px] font-bold mb-4 text-blue-600 lg:text-3xl">
           MỘT SỐ THÔNG TIN VỀ CÂU LẠC BỘ
         </h3>
         <h2 className="text-5xl font-extrabold text-center">ISTECH</h2>

@@ -3,24 +3,24 @@ import React from "react";
 function CardAbout({ information, type }) {
   return (
     <div
-      className={`h-[520px] flex py-14 ${
-        type === "left" ? "flex-row" : "flex-row-reverse"
+      className={`mt-[50px] h-[630px] w-[100%] flex flex-col py-6 lg:h-[520px] lg:w-[100%] lg:py-14 ${
+        type === "left" ? "lg:flex-row" : "lg:flex-row-reverse"
       } `}
     >
-      <div className="flex w-1/2 px-3.5">
+      <div className="flex w[100%] items-center sm:px-[26px] lg:w-1/2">
         <div
-          className=" bg-cover bg-center w-full h-full box-border rounded-md shadow-md"
+          className="px-10 w-[100%] h-[250px] bg-cover bg-center bg:contain box-border shadow-md lg:w-[100%] lg:h-full lg:rounded-lg"
           style={{ backgroundImage: `url(${information.link})` }}
         ></div>
       </div>
-      <div className="w-1/2 h-full">
-        <h4 className="ml-7 font-extrabold  text-blue-600 mb-6 text-xl ">
+      <div className="pt-[20px] px-[10px] h-full text-center lg:text-left lg:w-1/2 lg:pl-[16px] ">
+        <h4 className=" text-blue-600 text-xl font-extrabold lg:ml-7 lg:mb-6">
           0{information.id}.
         </h4>
-        <h3 className="ml-7 font-extrabold text-[40px] mb-4">
+        <h3 className=" text-[24px] font-extrabold lg:mb-4 lg:ml-7 lg:text-[40px]">
           {information.title}
         </h3>
-        <p className="ml-7 mr-7">{information.description}</p>
+        <p className="sm:ml-7 sm:mr-7 lg:w-[90%]">{information.description}</p>
       </div>
     </div>
   );
