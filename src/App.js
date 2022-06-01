@@ -66,6 +66,7 @@ function App() {
         <Route path="/media" element={<Media />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
+
       <div className="nearFooter">
         <div className="wrapNearFooter">
           <h6 className="nearFooterRes">Đăng kí thành viên</h6>
