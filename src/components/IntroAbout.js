@@ -2,7 +2,12 @@ import React from "react";
 
 function IntroAbout() {
   return (
-    <div className=" bg-bgki1 from-sky-800 bg-cyan-600 text-white justify-center items-center flex h-[200px]  lg:justify-start lg:pl-[200px] lg:h-[480px]">
+    <div
+      style={{
+        backgroundImage: `url("https://istech.vn/wp-content/uploads/2021/08/grad-white-curve-bg-1-1.svg")`,
+      }}
+      className="bg-no-repeat bg-cover from-sky-800 bg-cyan-600 text-white justify-center items-center flex h-[200px]  lg:justify-start lg:pl-[200px] lg:h-[480px]"
+    >
       <div>
         <h6 className="font-semibold text-center text-[18px] mb-6 text-slate-300 lg:text-[20px] lg:text-left">
           GIỚI THIỆU
