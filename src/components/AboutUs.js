@@ -15,7 +15,7 @@ function AboutUs() {
       title: "TẠI SAO BẠN NÊN CHỌN ISTECH",
       link: `https://istech.vn/wp-content/uploads/2021/08/istech-1-1-1024x768.jpg`,
       description:
-        " ISTECH hoạt động trong lĩnh vực rèn luyện, nghiên cứu khoa học, những hoạt động có mục đích khác không nằm trong lĩnh vực hoạt động của Câu lạc bộ.Trong tương lai, ISTECH sẽ tổ chức các hoạt động học tập, rèn luyện, bồi dưỡng, vui chơi lành mạnh, giao lưu trao đổi kinh nghiệm, tổ chức các cuộc thi, các ngày hội văn hoá liên quan tới việc nghiên cứu khoa học, máy tính.",
+        " ISTECH hoạt động trong lĩnh vực rèn luyện, nghiên cứu khoa học, những hoạt động có mục đích khác không nằm trong lĩnh vực hoạt động của Câu lạc bộ. Trong tương lai, ISTECH sẽ tổ chức các hoạt động học tập, rèn luyện, bồi dưỡng, vui chơi lành mạnh, giao lưu trao đổi kinh nghiệm, tổ chức các cuộc thi, các ngày hội văn hoá liên quan tới việc nghiên cứu khoa học, máy tính.",
     },
     {
       id: 3,

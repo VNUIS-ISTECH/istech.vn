@@ -5,11 +5,11 @@ import IntroAbout from "./components/IntroAbout";
 
 function App() {
   return (
-    <>
+    <div className="font-body">
       <IntroAbout />
       <AboutUs />
       <Apply />
-    </>
+    </div>
   );
 }
 

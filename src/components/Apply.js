@@ -9,7 +9,7 @@ function Apply() {
           Ứng Tuyển Ngay
         </h2>
         <div className="pt-3.5 h-12 w-32">
-          <button className="items-center bg-blue-600 h-12 w-32 rounded-lg ease-out duration-300 shadow-md lg:hover:h-10 lg:hover:w-28 ">
+          <button className="items-center bg-blue-600 h-12 w-32 rounded-lg ease-out transition-all hover:bg-blue-700 duration-300 shadow-md lg:hover:scale-90">
             Aplly Now
           </button>
         </div>
