@@ -4,6 +4,7 @@ import InfoMember from '../infoMember';
 import NearHeading from '../NearHeading';
 
 function CoVan() {
+
   const banCoVan = [
     {
       name:"PGS.TS. Lê Trung Thành",

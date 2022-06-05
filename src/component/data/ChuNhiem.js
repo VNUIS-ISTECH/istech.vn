@@ -1,7 +1,7 @@
 import React from 'react'
 
 import InfoMember from '../infoMember.js';
-import NearHeading from '../NearHeading.js';
+import NearHeading from '../NearHeading';
 
 function ChuNhiem() {
   const banChuNhiem = [

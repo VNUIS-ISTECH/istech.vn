@@ -19,7 +19,7 @@ function App() {
       <nav>
         <div className="navBarTrash">
           <li>
-            <Link to="/">
+            <Link to="/chunhiem">
               <div>Ban Chủ nhiệm</div>
             </Link>
           </li>
@@ -57,7 +57,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<ChuNhiem />} />
+        <Route path="/chunhiem" element={<ChuNhiem />} />
         <Route path="/covan" element={<CoVan />} />
         <Route path="/web" element={<Web />} />
         <Route path="/mobile" element={<Mobile />} />

@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import InfoMember from '../infoMember.js';
-import NearHeading from '../NearHeading.js';
+import InfoMember from "../infoMember.js";
+import NearHeading from "../NearHeading.js";
+
 
 function Mobile() {
   const banMobile = [
@@ -32,7 +33,7 @@ function Mobile() {
   ]
   return (
     <div>
-      <NearHeading ct={'Mobile Dev'}/>
+      <NearHeading ct={"Mobile Dev"} />
 
       <div className="w-full">
         {banMobile.map((item, index) => {
@@ -40,7 +41,7 @@ function Mobile() {
             return <InfoMember key={index} information={item} type="left" />;
           } else {
             return <InfoMember key={index} information={item} type="right" />;
-        }
+          }
         })}
       </div>
     </div>
