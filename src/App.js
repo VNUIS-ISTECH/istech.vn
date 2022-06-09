@@ -3,13 +3,13 @@ import AboutPage from "./components/AboutPage";
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
-import ChuNhiem from "./component/BanChuNhiem/ChuNhiem.js";
-import CoVan from "./component/BanCoVan/CoVan.js";
-import DataScience from "./component/DataScience/DataScience.js";
-import Game from "./component/GameDev/Game.js";
-import Media from "./component/MediaTeam/Media.js";
-import Mobile from "./component/MobileDev/Mobile.js";
-import Web from "./component/WebDev/Web.js";
+import ChuNhiem from "./component/data/ChuNhiem.js";
+import CoVan from "./component/data/CoVan.js";
+import DataScience from "./component/data/DataScience.js";
+import Game from "./component/data/Game.js";
+import Media from "./component/data/Media.js";
+import Mobile from "./component/data/Mobile.js";
+import Web from "./component/data/Web.js";
 
 import "./App.css";
 
