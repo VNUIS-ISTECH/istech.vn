@@ -1,11 +1,9 @@
+import logo from './logo.svg';
 import './App.css';
-import View from './components/Header';
+import Header from './components/Header';
 
 function App() {
-  print('hello ww')
   return (
     <View/>
-  );
-}
-
-export default App;
+  )
+}    
