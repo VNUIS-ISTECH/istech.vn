@@ -3,8 +3,13 @@ import View from './components/Header';
 
 function App() {
   return (
+    <div>
+
     <View/>
-    //dasda
+    <h2> ĐM thằng tưởng</h2>
+    </div>
+   
+    
 
   );
 }
