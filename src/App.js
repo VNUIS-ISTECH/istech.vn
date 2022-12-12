@@ -5,9 +5,6 @@ function App() {
   print('hello ww')
   return (
     <View/>
-    //dasda
-    // printf("Hello world");
-    // fgets(&s, sizeof(s), stdin);
   );
 }
 
