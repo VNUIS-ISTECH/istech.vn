@@ -4,6 +4,7 @@ import Header from './components/Header';
 
 function App() {
   return (
+<<<<<<< HEAD
    <div>
      <Header/>
      <h2>
@@ -30,3 +31,9 @@ function App() {
 
 export default App;
 
+=======
+    <View/>
+    //ffff
+  )
+}    
+>>>>>>> fd0452e982f845f252be207f8a58fefd30e7764a
