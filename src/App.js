@@ -4,7 +4,6 @@ import Header from './components/Header';
 
 function App() {
   return (
-<<<<<<< HEAD
    <div>
      <Header/>
      <h2>
@@ -26,18 +25,8 @@ function App() {
       </li>
      </ul>
    </div>
-=======
-    <View/>
-    //dasda
-    // printf("Hello world");
-    // fgets(&s, sizeof(s), stdin);
->>>>>>> a57895119c1a619d5245638657f10808cac97c86
   );
 }
 
 export default App;
-<<<<<<< HEAD
-//tk da
-=======
-//Code ngáo thế
->>>>>>> a57895119c1a619d5245638657f10808cac97c86
+
